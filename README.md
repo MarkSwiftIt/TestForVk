@@ -1,45 +1,38 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
+# TestForVk
 
-These are common Git commands used in various situations:
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+###  **🎯 About**
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+> 
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+Test task for Vk.
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+ТЗ:
+Необходимо разработать мобильное приложение, которое отображает выбранное погодное явление.
+Основные элементы интерфейса должны включать:
+﻿﻿В верхней части экрана выводится горизонтальная коллекция погодных явлений (ясно/дождь/гроза/туман/ итд, чем больше, тем лучше), которая будет служить селектором этих явлений, каждое погодное явление имеет анимированную интерфейсную реализацию на
+ВСЕМ экране (на всю ширину и высоту).
+﻿﻿При старте приложения рандомно выбирается одно явление и отображается на экране.
+﻿﻿При выборе (нажатии на элемент коллекции) погодного явления происходит анимированная смена одного явления на другое.
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+Требования к задаче и на что стоит обратить внимание:
+﻿﻿НЕ использовать SwiftUI и любые сторонние библиотеки.
+﻿﻿Адаптивный дизайн - интерфейс должен корректно отображаться на устройствах с различными размерами экранов (iPhone SE, iPhone 12 Pro Мах и т.д.).
+﻿﻿Элементы анимации - плавные переходы между выбранными явлениями и их анимациями.
+﻿﻿Локализация - интерфейс должен поддерживать два языка (английский и русский).
+﻿﻿Следование принципам DRY, KISS, SOLID.
+﻿﻿Грамотное разбиение на сущности, следование их ответственности.
+﻿﻿Отсутствие избыточности, функциональность кода, легкость чтения.
+В поле ответа вставь ссылку на публичный github или gitlab репозиторий с реализованным приложением.
+
+### **🚀 Technologies**
+
+> 
+
+
+The following tools were used in this project:
+
+- Swift 
+- UIKit  
+- MVC
