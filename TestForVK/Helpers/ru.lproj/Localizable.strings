@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  TestForVK
+
+  Created by Mark Goncharov on 22.07.2024.
+  
+*/
+
+"sunnyString" = "Солнце";
+"rainyString" = "Дождь";
+"windyString" = "Ветер";
+"tornadoString" = "Торнадо";
+"foggyString" = "Туман";
+"cloudlyString" = "Облачно";
+"thunderString" = "Гром";
+"coldString" = "Холод";
